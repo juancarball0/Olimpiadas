@@ -2,11 +2,36 @@
 <?php include('includes/header.php') ?>
 
 
-
-<h1>Alerta de Emergencia Hospitalaria</h1>
+<style>
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left:15%;
+        top:-110%;
     
 
-    <button id="emergencyButton" onclick="activarAlerta()">Alerta de Emergencia</button>
+    }
+    .caja{ 
+        margin-top:5%;
+        position:relative;
+        margin-top:-55%;
+        
+
+    }
+</style>
+<div class="grid text-center">
+        <div class="container-fluid">
+            <div class="caja">
+                <h1>Alerta de Emergencia Hospitalaria</h1>
+                
+                <button id="emergencyButton" onclick="activarAlerta()">Alerta de Emergencia</button>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    
 
     <script>
         function activarAlerta() {

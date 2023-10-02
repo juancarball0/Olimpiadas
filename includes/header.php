@@ -12,67 +12,56 @@
 
     <div class="container-fluid">
         <div class="row d-flex justify-content-start">
-            <div class="col-md-2 col-sm-12 bg-nav text-white">
-                <nav class="nav flex-column mt-5">
+            <div class="col-md-2 col-sm-12 bg-nav text-white p-3">
+                <nav class="nav flex-column mt-0">
                     <img src="" alt="">
-                    <div class="col sidebar">
-                        <ul class="navbar-nav flex-column">
-                            <li class="nav-item">
-                                <img src="./img/logo.png" width="100" height="100" alt="Icono" style="border-radius:25px; margin-left:15%;" />
+                    <div class="col sidebar d-flex ajustify-content-center">
+                        <ul class="navbar-nav flex-column mt-0 ">
+                            <li class="nav-item m-2 ">
+                                <img src="./img/logo.png" width="50" height="50" alt="Icono" style="border-radius:25px; margin-left:15%;" />
                             </li>
-                            <br>
-                            <br>
-                            <br>
-                            <li class="nav-item">
+                            <li class="nav-item m-2">
                                 <a class="nav-link text-light" href="index.php">
                                     <img src="./img/home-svgrepo-com.svg" alt="Icono" class="icono-menu"/>Home
                                 </a>
                             </li>
-                            <br>
-                            <li class="nav-item">
+                            <li class="nav-item m-2">
                                 <a class="nav-link text-light" href="ver_pacientes.php">
                                     <img src="./img/person-public-svgrepo-com.svg" alt="Icono" class="icono-menu" />Paciente
                                 </a>
                             </li>
-                            <br>
-                            <li class="nav-item">
+                            <li class="nav-item m-2">
                                 <a class="nav-link text-light" href="ver_enfermero.php">
                                     <img src="./img/user-doctor-svgrepo-com.svg" alt="Icono" class="icono-menu"/>Enfermero
                                 </a>
                             </li>
-                            <br>
-                            <li class="nav-item">
+                            <li class="nav-item m-2">
                                 <a class="nav-link text-light" href="zona.php">
                                     <img src="./img/maps-svgrepo-com.svg" alt="Icono" class="icono-menu"/>Área
                                 </a>
                             </li>
-                            <br>
-                            <li class="nav-item">
+                            <li class="nav-item m-2">
                                 <a class="nav-link text-light" href="llamadas.php"> 
-                                    <img src="./img/megaphone-svgrepo-com.svg" alt="Icono" class="icono-menu"/>Llamadas
+                                    <img src="./img/phone-call-svgrepo-com.svg" alt="Icono" class="icono-menu"/>Llamadas
                                 </a>
                             </li>
-                            <br>
-                            <li class="nav-item">
+                            <li class="nav-item m-2">
                                 <a class="nav-link text-light" href="alerta_azul.php"> 
-                                    <img src="./img/phone-call-svgrepo-com.svg" alt="Icono" class="icono-menu"/>Alerta
+                                    <img src="./img/megaphone-svgrepo-com.svg" alt="Icono" class="icono-menu"/>Alerta
                                 </a>
                             </li>
-                            <br>
-                            <li class="nav-item">
+                            <li class="nav-item m-2">
                                 <a class="nav-link text-light" href="estadisticas.php">
                                     <img src="./img/statistics-svgrepo-com.svg" alt="" class="icono-menu">Estadísticas
                                 </a>
                             </li>
-                            <br>
-                            <li class="nav-item d-flex justify-content-start">
-                                <a class="nav-link text-light d-flex align-items-end" href="login.php">
+                            <li class="nav-item m-2">
+                                <a class="nav-link text-light" href="login.php">
                                     <img class="icono-menu " src="./img/usuario.png">Iniciar Sesion
                                 </a>
                             </li>
-                            <br>
-                            <li class="nav-item d-flex justify-content-start">
-                                <a class="nav-link text-light d-flex align-items-end" href="#">
+                            <li class="nav-item m-2">
+                                <a class="nav-link text-light" href="#">
                                     <img class="icono-menu " src="./img/logout-2-svgrepo-com.svg">Cerrar Sesión
                                 </a>
                             </li>  
@@ -82,5 +71,6 @@
             </div>
         </div>
     </div>
+        
         
 

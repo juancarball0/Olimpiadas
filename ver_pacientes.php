@@ -24,16 +24,6 @@ error_reporting(0);
         
 
         }
-    .contenedor{ 
-        border:3px solid grey;
-        padding:10px;
-        border-radius:10px;
-        margin-top:0%;
-        position:relative;
-        margin-top:-75%;
-        height:20%;
-        
-    }
     h1{
     text-align:center;}
 
@@ -41,12 +31,6 @@ error_reporting(0);
 <div class="grid text-center">
     <div class="container-fluid">
         <div class="col-7">
-        
-            <div class="contenedor">
-                <a href="carga_pacientes.php"><img src="img/paciente.png" width="300" height="300" ></img><h1>Añadir Paciente</h1></a>
-            
-            </div>
-        
             <div class="caja">
                 <table class="table table-bordered">
                     <thead>

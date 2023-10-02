@@ -23,7 +23,7 @@
                 <label>Contraseña</label>
                 <input type="password" name="contraseña" placeholder="Contraseña">
                 <hr>
-                <input href="index.php" class="btn btn-success" value="Iniciar Sesion" type="submit"></input>
+                <input class="btn btn-success" value="Iniciar Sesion" type="submit"></input>
                 <label style="margin-left:25%; ">¿No te has registrado?</label>
                 <br>
                 <a href="registro.php" style="font-size:20px; margin-left:35%;">Registrarse</a>

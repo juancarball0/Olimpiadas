@@ -26,41 +26,10 @@ error_reporting(0);
     h1{
     text-align:center;}
 
-    .contenedor{ 
-        
-        padding:10px;
-        
-        margin-top:0%;
-        position:relative;
-        margin-top:-75%;
-        height:20%;
-        
-    }
-    .boton{
-        border:3px solid grey;
-        border-radius:10px;
-       
- 
-       
-      
-        height:20%;
-    }
-    
 </style>
 <div class="grid text-center">
     <div class="container-fluid">
-        
         <div class="col-7">
-        
-            <div class="contenedor">
-                <a href="carga_n.php" >
-                    <img src="./img/asistencia.png" width="20" height="20" ><h6 class="boton">Añadir Enfermeros</h6></img>
-                    
-                </a>
-            
-            </div>
-
-   
             <div class="caja">
                 <table class="table table-bordered">
                     <thead>

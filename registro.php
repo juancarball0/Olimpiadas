@@ -29,7 +29,7 @@
             <label>Contraseña</label>
             <input type="password" name="contraseña" placeholder="Contraseña" required>
             <hr>
-            <input href="index.php" name="sigin_up" class="btn btn-success"  value="Registrarse" type="submit"></input>
+            <input name="sigin_up" class="btn btn-success" value="Registrarse" type="submit"></input>
         </form> 
 
             

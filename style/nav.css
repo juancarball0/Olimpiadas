@@ -1,48 +1,50 @@
 body{
-  background-color: rgb(252, 237, 220);
+  background-color: rgb(247, 222, 194);
 }
 
 .bg-nav {
-  background-color: #5e5c5c;
+  background-color: #4b4a4a;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   width: 200px;
   padding: 20px;
-  position:static;
+  position: static;
 }
 
 .bg-nav h4 {
   text-align: center;
   font-size: 1.5rem;
-  color: rgba(110, 110, 110, 0.685);
+  color: rgba(100, 97, 97, 0.363);
 }
 
 .bg-nav .nav-link {
-  color: rgb(117, 117, 117);
+  color: rgb(87, 87, 87);
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .bg-nav .nav-link:hover {
-  background-color: #888484;
-  color: #b6b6b6;
+  background-color: #8d8c91;
+  color: #1f0000;
 }
 
 
 .icono-menu {
-  width: 24px;
-  height: 24px;
+  width: 10px;
+  height: 10px;
   vertical-align: middle;
 }
 .sidebar {
   height: 100vh;
-  width: 10vh;
+  width: 18vh;
 
 }
 
 
 .bg-light {
-  background-color: #696b6d;
-  min-height: 100vh;
+  background-color: #494949;
+  min-height: 95vh;
 }
